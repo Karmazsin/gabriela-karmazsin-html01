@@ -6,21 +6,34 @@
 
 .box-red {
   background-color: red;
+  transform: rotate(-30deg);
 }
 
 .box-green {
   background-color: green;
+  transform: translate(25px, 30px);
 }
 
 .box-purple {
   background-color: purple;
+  transform: translate(100px)
+  rotate(45deg);
+
+
 }
 
 .box-brown {
   background-color: brown;
+  transform: skew(10 deg, 10 deg);
+  transform: translate(5px,);
+    translate: 10px;
+
 }
 
 .box-yellow {
   background-color: yellow;
+  scale: 1.2;
+  rotate: -15deg;
 }
+
 
