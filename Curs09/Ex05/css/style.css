@@ -39,10 +39,18 @@
 
 .box-brown {
   background-color: brown;
+  width: 5s ease-in;
+  height: 5s ease-in;
+}
+
+.box-brown:hover {
+  transform: rotate(-180 deg);
+
 }
 
 .box-yellow {
   background-color: yellow;
+
 }
 
 
