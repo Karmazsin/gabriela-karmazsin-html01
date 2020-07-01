@@ -19,3 +19,18 @@ p:hover i {
   display: inline-block;
 }
 
+.secondary a:hover {
+  text-decoration: overline;
+}
+
+.main li:nth-child(odd) a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+p b:hover {
+  color: red;
+  transform: translate(2px);
+  display: inline-block;
+}
+

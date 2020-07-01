@@ -23,3 +23,25 @@ h2:nth-of-type(odd) {
   color: blue;
 }
 
+.u-line > li:first-child {
+  text-decoration: underline;
+}
+.last-list li:last-child {
+  text-decoration: line-through;
+}
+
+
+
+p:nth-of-type(1) {
+  background-color: brown;
+  padding: 15px;
+}
+
+ul:nth-of-type(even) {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+li:nth-child(3) {
+  color: purple;
+}
