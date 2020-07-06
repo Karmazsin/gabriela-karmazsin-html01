@@ -54,8 +54,8 @@ ol + h2 {
   padding: 12px 10px;
 }
 
-.last-list ~ a {
-  text-decoration: yellow;
+.last-list ~ ul a {
+ color: yellow;
 }
 
 .my-list > li {
@@ -64,6 +64,10 @@ ol + h2 {
 
 .nested a {
   display: inline-block;
+  padding: 5px;
+}
+
+.nested > li > ul > li > a {
   padding: 5px;
 }
 
